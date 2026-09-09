@@ -1,11 +1,11 @@
 <div align="center">
-  <h1>AgentTeacher — Senior C++ & Systems Edition</h1>
-  <p><b>Rigorous Mentorship, Hardware-Grounded Theory & Code Review for Systems & Embedded Engineers</b></p>
+  <h1>AgentTeacher — Senior Software & Systems Edition</h1>
+  <p><b>Rigorous Mentorship, Under-The-Hood Architecture & Deep Code Review for Any Language</b></p>
   <p><a href="README.vi.md"><b>Tiếng Việt (Khuyên Dùng)</b></a> · <a href="README.md"><b>English</b></a></p>
   <p>
-    <img src="https://img.shields.io/badge/Language-Modern%20C%2B%2B20%20%7C%20C-00599C?style=flat-square&logo=c%2B%2B" alt="C++">
-    <img src="https://img.shields.io/badge/Platform-ARM%20Cortex--M%20%7C%20STM32-0091BD?style=flat-square&logo=arm" alt="ARM">
-    <img src="https://img.shields.io/badge/Domain-Bare--Metal%20%7C%20RTOS-E95420?style=flat-square" alt="Domain">
+    <img src="https://img.shields.io/badge/Languages-C%2B%2B%20%7C%20Rust%20%7C%20Go%20%7C%20Python%20%7C%20TS-00599C?style=flat-square" alt="Languages">
+    <img src="https://img.shields.io/badge/Focus-Under--the--Hood%20%7C%20Systems-0091BD?style=flat-square" alt="Focus">
+    <img src="https://img.shields.io/badge/Doctrine-Build%20Small.%20Understand%20Deep.-E95420?style=flat-square" alt="Doctrine">
     <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
     <img src="https://img.shields.io/badge/Skill-AgentTeacher-blueviolet?style=flat-square" alt="Skill">
   </p>
@@ -13,12 +13,13 @@
 
 ---
 
-## Why AgentTeacher C++ & Systems?
+## Why AgentTeacher?
 
-When learning Modern C++, Bare-metal Embedded, and Computer Architecture, **dictionary definitions don't teach — physical hardware constraints, memory layouts, and compiler codegen do**.
+Whether you are writing Modern C++, safe Rust, concurrent Go, Python, or TypeScript, **dictionary definitions don't teach — physical runtime mechanics, memory layouts, and compiler codegen do**.
 
-AgentTeacher transforms the learning experience into a complete 6-phase engineering mentorship loop:
-`Ingestion (YouTube / Docs / Concepts) → 6-Layer Hardware Theory Spine → 3-Level Progressive Exercises → Student Implementation → Senior Code Review & Multi-Pillar Deep Assessment → Learning Report & Knowledge Graph Persistence`.
+Never learn by shallow feature-assembling (copy-pasting libraries to build a flashy UI without understanding what runs underneath).
+AgentTeacher transforms your journey with the **"Build small. Understand deep."** doctrine across a complete 6-phase engineering mentorship loop:
+`Ingestion (YouTube / Docs / Concepts) → 6-Layer Under-The-Hood Theory Spine → 3-Level Progressive Exercises → Student Implementation → Senior Code Review & Multi-Pillar Deep Assessment → Learning Report & Knowledge Graph Persistence`.
 
 ---
 
@@ -41,15 +42,15 @@ AgentTeacher transforms the learning experience into a complete 6-phase engineer
                ▼
 ┌─────────────────────────────────────────────────────────────┐
 │ 3. 3-LEVEL PROGRESSIVE EXERCISES                            │
-│    Level 1: Host Simulation in standard C++20 on PC         │
-│    Level 2: Target & Register Mapping on MCU (CMSIS/Bitwise)│
-│    Level 3: Zero-HAL / Bare-Metal (No vendor SDK/headers)   │
+│    Level 1: Core Mechanics (Grammar & fundamental logic)    │
+│    Level 2: Real-World & Constraints (Resource & efficiency)│
+│    Level 3: Under-the-Hood / Zero-Framework (Build from scratch)│
 └──────────────┬──────────────────────────────────────────────┘
                │
                ▼
 ┌─────────────────────────────────────────────────────────────┐
 │ 4. STUDENT IMPLEMENTATION                                   │
-│    You write the code and submit snippets or git repo       │
+│    Write code directly in labs/<lab_id>/ or submit snippets │
 └──────────────┬──────────────────────────────────────────────┘
                │
                ▼
@@ -74,16 +75,16 @@ AgentTeacher transforms the learning experience into a complete 6-phase engineer
 - [README.vi.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/README.vi.md) — Comprehensive user-facing documentation in Vietnamese.
 - [AGENTS.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/AGENTS.md) / [CLAUDE.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/CLAUDE.md) — Working rules and operational guidelines.
 - `references/`:
-  - [knowledge-graph.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/references/knowledge-graph.md) — 24-node C++ & Systems competency DAG and prerequisites matrix.
-  - [teaching-method.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/references/teaching-method.md) — 6-layer teaching playbook grounded in hardware physics.
+  - [knowledge-graph.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/references/knowledge-graph.md) — Competency DAG and prerequisites matrix.
+  - [teaching-method.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/references/teaching-method.md) — 6-layer teaching playbook grounded in hardware physics and runtime models.
   - [exercise-generator.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/references/exercise-generator.md) — 3-level progressive exercise rubric.
   - [code-review-rubric.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/references/code-review-rubric.md) — Senior Code Review standards and 3-tier deep assessment battery.
   - [youtube-ingestion.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/references/youtube-ingestion.md) — Pipeline for parsing YouTube transcripts and technical documentation.
-  - [concept-to-language.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/references/concept-to-language.md) — Domain to language & assembly mapping.
+  - [concept-to-language.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/references/concept-to-language.md) — Domain to language & runtime mapping.
 - `scripts/`:
   - [tracker.py](file:///c:/Users/Phucx/Desktop/Agent_Teacher/scripts/tracker.py) — CLI tracking engine managing `learning_profile.json`.
   - [lab_manager.py](file:///c:/Users/Phucx/Desktop/Agent_Teacher/scripts/lab_manager.py) — Lab scaffolding and session snapshots manager.
-  - [package_skill.py](file:///c:/Users/Phucx/Desktop/Agent_Teacher/scripts/package_skill.py) & [package-skill.sh](file:///c:/Users/Phucx/Desktop/Agent_Teacher/scripts/package-skill.sh) — Skill release packaging tools.
+  - [package_skill.py](file:///c:/Users/Phucx/Desktop/Agent_Teacher/scripts/package_skill.py) — Skill release packaging tool.
 - `labs/` — Hands-on student workspace (`lab01_boot`, `lab02_mmio`...).
 - `sessions/` — Student session assessment snapshots.
 - `assets/examples/`:
@@ -113,5 +114,6 @@ python scripts/lab_manager.py --create lab02_mmio --name "Lab 02: Peripheral MMI
 
 ## Keywords & Topics for Discovery
 
-`c++` · `modern-cpp` · `embedded-systems` · `bare-metal` · `arm-cortex-m` · `stm32` · `rtos` · `freertos` · `firmware` · `systems-programming` · `interrupt-handling` · `nvic` · `vector-table` · `systick` · `pendsv` · `context-switch` · `memory-mapped-io` · `code-review` · `assembly` · `lock-free`
+`programming` · `software-engineering` · `systems-programming` · `c++` · `rust` · `golang` · `python` · `typescript` · `embedded-systems` · `bare-metal` · `concurrency` · `memory-management` · `compilers` · `code-review` · `architecture` · `under-the-hood` · `learning-mentor`
+
 
