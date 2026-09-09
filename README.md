@@ -72,6 +72,7 @@ AgentTeacher transforms your journey with the **"Build small. Understand deep."*
 ## Repository Map
 
 - [SKILL.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/SKILL.md) — Skill entrypoint: 6-phase lifecycle and contracts.
+- [GUIDE.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/GUIDE.md) — Comprehensive user and slash commands guide.
 - [README.vi.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/README.vi.md) — Comprehensive user-facing documentation in Vietnamese.
 - [AGENTS.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/AGENTS.md) / [CLAUDE.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/CLAUDE.md) — Working rules and operational guidelines.
 - `references/`:

@@ -77,6 +77,7 @@ Khác biệt hoàn toàn với các chatbot đọc định nghĩa từ điển h
 | Tệp / Thư Mục | Vai Trò Kỹ Thuật |
 |---|---|
 | [SKILL.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/SKILL.md) | Điểm kích hoạt skill: Định nghĩa chu trình 6 Phase, trigger phrases và hợp đồng output |
+| [GUIDE.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/GUIDE.md) | **Cẩm nang hướng dẫn sử dụng toàn tập**: Lệnh tắt, quy trình 6 phase, CLI và ví dụ |
 | [AGENTS.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/AGENTS.md) | Chỉ dẫn vận hành cho Agent: Quy tắc chấm điểm, phong cách Mentor, hard stops |
 | [CLAUDE.md](file:///c:/Users/Phucx/Desktop/Agent_Teacher/CLAUDE.md) | Hướng dẫn tóm tắt cho Claude Code |
 | `references/` | **Kho Cẩm Nang Kỹ Thuật & Sổ Tay Giảng Dạy**: |
