@@ -1,10 +1,15 @@
-# AgentTeacher — Senior C++ & Systems/Embedded Mentor Agent
-
-[![Skill](https://img.shields.io/badge/Skill-AgentTeacher-blue.svg)](file:///c:/Users/Phucx/Desktop/Agent_Teacher/SKILL.md)
-[![Specialization](https://img.shields.io/badge/Specialization-Modern%20C%2B%2B%20%7C%20Bare--Metal%20%7C%20RTOS-orange.svg)](file:///c:/Users/Phucx/Desktop/Agent_Teacher/references/curriculum-knowledge-graph.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](file:///c:/Users/Phucx/Desktop/Agent_Teacher/LICENSE)
-
-**AgentTeacher C++ Edition** là một Claude Code / Antigravity Skill chuyên biệt đóng vai trò **Cố vấn Kỹ thuật (Mentor), Giảng viên Kiến trúc (Teacher), Reviewer và Giám khảo Sát hạch (Examiner)** dành cho lập trình viên C++, Lập trình nhúng (Bare-metal Embedded), Vi điều khiển ARM Cortex-M/x86, và Hệ điều hành thời gian thực (RTOS).
+<div align="center">
+  <h1>AgentTeacher — Senior C++ & Systems Edition</h1>
+  <p><b>Hệ Thống Cố Vấn, Giảng Dạy & Sát Hạch Năng Lực Lập Trình Nhúng & C++ Chuẩn Senior</b></p>
+  <p><a href="README.vi.md"><b>Tiếng Việt (Khuyên Dùng)</b></a> · <a href="README.md"><b>English</b></a></p>
+  <p>
+    <img src="https://img.shields.io/badge/Ngôn%20ngữ-Modern%20C%2B%2B20%20%7C%20C-00599C?style=flat-square&logo=c%2B%2B" alt="C++">
+    <img src="https://img.shields.io/badge/Kiến%20trúc-ARM%20Cortex--M%20%7C%20STM32-0091BD?style=flat-square&logo=arm" alt="ARM">
+    <img src="https://img.shields.io/badge/Chuyên%20sâu-Bare--Metal%20%7C%20RTOS-E95420?style=flat-square" alt="Domain">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+    <img src="https://img.shields.io/badge/Skill-AgentTeacher-blueviolet?style=flat-square" alt="Skill">
+  </p>
+</div>
 
 ---
 
@@ -131,3 +136,10 @@ python scripts/lab_manager.py --create lab02_mmio --name "Lab 02: Peripheral MMI
   > "Giao cho tôi bài tập thiết kế SPSC Queue Lock-free bằng C++20 atomic."
 - **Review code:**
   > "Đây là đoạn code ngắt ngoài GPIO trên STM32F4 của tôi: [dán code]. Hãy review chuẩn Senior và đặt câu hỏi sát hạch."
+
+---
+
+## Từ Khóa Tìm Kiếm & Khám Phá (SEO & Bot Discovery)
+
+`c++` · `modern-cpp` · `embedded-systems` · `lap-trinh-nhung` · `bare-metal` · `arm-cortex-m` · `stm32` · `rtos` · `freertos` · `firmware` · `systems-programming` · `interrupt-handling` · `nvic` · `vector-table` · `systick` · `pendsv` · `context-switch` · `memory-mapped-io` · `code-review` · `assembly` · `lock-free`
+

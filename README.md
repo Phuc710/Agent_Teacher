@@ -2,8 +2,13 @@
   <h1>AgentTeacher — Senior C++ & Systems Edition</h1>
   <p><b>Rigorous Mentorship, Hardware-Grounded Theory & Code Review for Systems & Embedded Engineers</b></p>
   <p><a href="README.vi.md"><b>Tiếng Việt (Khuyên Dùng)</b></a> · <a href="README.md"><b>English</b></a></p>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"></a>
-  <a href="SKILL.md"><img src="https://img.shields.io/badge/skill-agent--teacher-orange.svg?style=flat-square" alt="Skill"></a>
+  <p>
+    <img src="https://img.shields.io/badge/Language-Modern%20C%2B%2B20%20%7C%20C-00599C?style=flat-square&logo=c%2B%2B" alt="C++">
+    <img src="https://img.shields.io/badge/Platform-ARM%20Cortex--M%20%7C%20STM32-0091BD?style=flat-square&logo=arm" alt="ARM">
+    <img src="https://img.shields.io/badge/Domain-Bare--Metal%20%7C%20RTOS-E95420?style=flat-square" alt="Domain">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+    <img src="https://img.shields.io/badge/Skill-AgentTeacher-blueviolet?style=flat-square" alt="Skill">
+  </p>
 </div>
 
 ---
@@ -103,3 +108,10 @@ python scripts/tracker.py --update "embed-nvic-interrupt" --state MASTERED --sco
 python scripts/lab_manager.py --list
 python scripts/lab_manager.py --create lab02_mmio --name "Lab 02: Peripheral MMIO"
 ```
+
+---
+
+## Keywords & Topics for Discovery
+
+`c++` · `modern-cpp` · `embedded-systems` · `bare-metal` · `arm-cortex-m` · `stm32` · `rtos` · `freertos` · `firmware` · `systems-programming` · `interrupt-handling` · `nvic` · `vector-table` · `systick` · `pendsv` · `context-switch` · `memory-mapped-io` · `code-review` · `assembly` · `lock-free`
+
