@@ -1,0 +1,17 @@
+{
+  "name": "agent-teacher",
+  "description": "Concept-teaching skill for Claude Code.",
+  "owner": {
+    "name": "Phuc710",
+    "email": "athanhphuc7102005@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "agent-teacher",
+      "description": "Senior C++ & Systems/Embedded Mentor Skill.",
+      "category": "education",
+      "source": "./",
+      "homepage": "https://github.com/Phuc710/Agent_Teacher"
+    }
+  ]
+}

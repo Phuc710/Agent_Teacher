@@ -1,0 +1,260 @@
+{
+  "version": "1.0.0",
+  "student_name": "Senior C++ Apprentice",
+  "created_at": "2026-09-09T08:52:11.154649",
+  "updated_at": "2026-09-09T08:52:11.154649",
+  "nodes": {
+    "c-memory-layout": {
+      "name": "Bố cục bộ nhớ tiến trình (Stack/Heap/BSS/Data/Text)",
+      "category": "C & Pointer Mastery",
+      "prereqs": [],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "c-pointer-arithmetic": {
+      "name": "Con trỏ & Số học con trỏ (Pointer Arithmetic)",
+      "category": "C & Pointer Mastery",
+      "prereqs": [
+        "c-memory-layout"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "c-function-pointer": {
+      "name": "Con trỏ hàm & Callback (Function Pointers)",
+      "category": "C & Pointer Mastery",
+      "prereqs": [
+        "c-pointer-arithmetic"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "c-volatile": {
+      "name": "Từ khóa volatile & Compiler Optimization",
+      "category": "C & Pointer Mastery",
+      "prereqs": [
+        "c-pointer-arithmetic"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "c-struct-padding-alignment": {
+      "name": "Đệm cấu trúc & Canh lề bộ nhớ (Padding & Alignment)",
+      "category": "C & Pointer Mastery",
+      "prereqs": [
+        "c-pointer-arithmetic"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "cpp-raii": {
+      "name": "RAII & Resource Management",
+      "category": "Modern C++ Core",
+      "prereqs": [
+        "c-memory-layout"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "cpp-move-semantics": {
+      "name": "Move Semantics & Rvalue References (&&)",
+      "category": "Modern C++ Core",
+      "prereqs": [
+        "cpp-raii",
+        "c-pointer-arithmetic"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "cpp-smart-pointers": {
+      "name": "Smart Pointers (unique_ptr, shared_ptr)",
+      "category": "Modern C++ Core",
+      "prereqs": [
+        "cpp-move-semantics",
+        "cpp-raii"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "cpp-vtable-polymorphism": {
+      "name": "Đa hình & Cơ chế VTable / _vptr",
+      "category": "Modern C++ Core",
+      "prereqs": [
+        "c-function-pointer",
+        "c-struct-padding-alignment"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "cpp-memory-model-atomics": {
+      "name": "C++ Memory Model & std::atomic (Memory Orders)",
+      "category": "Modern C++ Core",
+      "prereqs": [
+        "c-volatile",
+        "c-memory-layout"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "arch-registers-abi": {
+      "name": "Tập thanh ghi CPU & Calling Conventions",
+      "category": "Computer Architecture & Assembly",
+      "prereqs": [
+        "c-memory-layout"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "arch-stack-frame": {
+      "name": "Cấu trúc Stack Frame & Hardware Context Save",
+      "category": "Computer Architecture & Assembly",
+      "prereqs": [
+        "arch-registers-abi"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "arch-inline-assembly": {
+      "name": "GCC Inline Assembly & Clobber List",
+      "category": "Computer Architecture & Assembly",
+      "prereqs": [
+        "arch-registers-abi"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "arch-cache-locality": {
+      "name": "Cache Line, False Sharing & Memory Hierarchy",
+      "category": "Computer Architecture & Assembly",
+      "prereqs": [
+        "c-struct-padding-alignment"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "embed-memory-mapped-io": {
+      "name": "Memory Mapped I/O (MMIO) & Bitwise Registers",
+      "category": "Embedded Systems & Bare-Metal",
+      "prereqs": [
+        "c-volatile",
+        "c-pointer-arithmetic"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "embed-startup-code": {
+      "name": "Quy trình khởi động MCU & Startup Code",
+      "category": "Embedded Systems & Bare-Metal",
+      "prereqs": [
+        "c-memory-layout",
+        "arch-registers-abi"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "embed-vector-table": {
+      "name": "Bảng Vector Ngắt (Vector Table & VTOR)",
+      "category": "Embedded Systems & Bare-Metal",
+      "prereqs": [
+        "embed-startup-code",
+        "c-function-pointer"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "embed-nvic-interrupt": {
+      "name": "Bộ điều khiển ngắt NVIC & ISR Lifecycle",
+      "category": "Embedded Systems & Bare-Metal",
+      "prereqs": [
+        "embed-vector-table",
+        "arch-stack-frame",
+        "embed-memory-mapped-io"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "embed-zero-hal-driver": {
+      "name": "Viết Driver Bare-Metal không dùng thư viện hãng",
+      "category": "Embedded Systems & Bare-Metal",
+      "prereqs": [
+        "embed-memory-mapped-io",
+        "embed-nvic-interrupt"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "rtos-context-switch": {
+      "name": "Chuyển đổi ngữ cảnh PendSV & Context Switching",
+      "category": "RTOS & Real-Time Systems",
+      "prereqs": [
+        "arch-stack-frame",
+        "embed-nvic-interrupt",
+        "arch-inline-assembly"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "rtos-scheduler": {
+      "name": "Bộ lập lịch Task & Trạng thái Task (Ready/Blocked)",
+      "category": "RTOS & Real-Time Systems",
+      "prereqs": [
+        "rtos-context-switch"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "rtos-sync-primitives": {
+      "name": "Đồng bộ hóa: Semaphore, Mutex & Priority Inversion",
+      "category": "RTOS & Real-Time Systems",
+      "prereqs": [
+        "rtos-scheduler"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "perf-lockfree-queue": {
+      "name": "Lock-Free Ring Buffer / SPSC Queue với std::atomic",
+      "category": "High Performance & Concurrency",
+      "prereqs": [
+        "cpp-memory-model-atomics",
+        "arch-cache-locality"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    },
+    "perf-zero-copy": {
+      "name": "Kiến trúc Zero-Copy DMA & Cache Maintenance",
+      "category": "High Performance & Concurrency",
+      "prereqs": [
+        "embed-memory-mapped-io",
+        "arch-cache-locality"
+      ],
+      "status": "MISSING",
+      "score": 0,
+      "last_assessed": null
+    }
+  }
+}
